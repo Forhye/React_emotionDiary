@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Yeongdeok Sea";
-    src: url("public/Yeongdeok Sea.ttf");
+    src: url("/Yeongdeok Sea.ttf");
+    /*src: url("public/Yeongdeok Sea.ttf"); <-잘못된 코드*/
 }
 
 html,
