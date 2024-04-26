@@ -57,7 +57,7 @@ const Editor = ({ onSubmit }) => {
     let name = e.target.name;
     let value = e.target.value;
 
-    if (name === "createdDate") {
+    if (name === "createDate") {
       value = new Date(value);
     }
 

@@ -16,19 +16,19 @@ import { getEmotionImage } from "./util/get-emition-image";
 const mockData = [
   {
     id: 1,
-    createdDate: new Date("2024-04-04").getTime(),
+    createDate: new Date("2024-04-04").getTime(),
     emotionId: 1,
     content: "1번 일기 내용",
   },
   {
     id: 2,
-    createdDate: new Date("2024-04-03").getTime(),
+    createDate: new Date("2024-04-03").getTime(),
     emotionId: 2,
     content: "2번 일기 내용",
   },
   {
     id: 3,
-    createdDate: new Date("2024-03-01").getTime(),
+    createDate: new Date("2024-03-01").getTime(),
     emotionId: 3,
     content: "3번 일기 내용",
   },
