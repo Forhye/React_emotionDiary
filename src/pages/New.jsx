@@ -5,10 +5,12 @@ import Editor from "../components/Editor";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { DiaryDispatchContext } from "../App";
+import usePageTitle from "../hooks/usePageTitle";
 
 const New = () => {
   const nav = useNavigate();
   //보통 -1을 넣어주면 뒤로 간다
+  usePageTitle("새로운 일기 작성");
 
   const { onCreate } = useContext(DiaryDispatchContext);
 

@@ -1,5 +1,6 @@
 import { useState, useContext } from "react";
 import { DiaryStateContext } from "../App";
+import usePageTitle from "../hooks/usePageTitle";
 
 import Header from "../components/Header";
 import Button from "../components/Button";
@@ -42,6 +43,8 @@ const Home = () => {
   const onDecreaseMonth = () => {
     setPivotDate(new Date(pivotDate.getFullYear(), pivotDate.getMonth() - 1));
   };
+
+  usePageTitle("이모션 다이어리");
 
   return (
     <div>
